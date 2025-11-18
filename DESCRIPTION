@@ -1,0 +1,12 @@
+Package: m6APrediction
+Type: Package
+Title:Prediction of m6A Sites from RNA Features
+Version: 0.1.0
+Authors@R: 
+    person(given ="yixuan", family ="pang", email = "Yixuan.Pang23@xjtlu.edu.cn", role = c("aut", "cre"))
+Description: An R package that predicts m6A RNA methylation sites from sequence features using a random forest classifier.
+License:MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:  randomForest, stats
