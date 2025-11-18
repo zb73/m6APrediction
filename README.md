@@ -14,6 +14,11 @@ You can install the `m6APrediction` package from GitHub using the `devtools` pac
 devtools::install_github("zb73/m6APrediction")
 
 ```
+OR use the following code inside the R console:
+```r
+# Install from GitHub
+remotes::install_github("zb73/m6APrediction")
+```
 
 Alternatively, you can install the package from a .tar.gz file:
 
