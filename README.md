@@ -46,6 +46,13 @@ ml_fit <- readRDS(system.file("extdata", "rf_fit.rds", package = "m6APrediction"
 example_df <- read.csv(system.file("extdata", "m6A_input_example.csv", package = "m6APrediction"))
 prediction_multiple(ml_fit, example_df, positive_threshold = 0.6)
 ```
+
+## Model Performance (ROC and PRC)
+1.ROC Curve
+<img width="706" height="485" alt="ROC" src="https://github.com/user-attachments/assets/cf4d4b28-8061-4226-a311-c77d2e8005a4" />
+2.Precision–Recall Curve
+<img width="708" height="489" alt="PRC" src="https://github.com/user-attachments/assets/130a83d5-9d7f-4208-9228-3e6c2af66e75" />
+
 ## Input Columns Required:
 
 gc_content
